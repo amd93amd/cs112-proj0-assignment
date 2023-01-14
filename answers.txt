@@ -1,7 +1,94 @@
 
 Project 0
-Name:
-Username:
-Student Id:
+Name:Allison Drouillard 
+Username: amd93
+Date: 14 Jan 2023
 
 Step 3. -------------------------------------------
+
+#include <string>
+#include <iostream>
+using namespace std;
+
+int main() {
+    unsigned BIG_NUMBER = 10000000;
+    string name = "Allison Drouillard";
+    char last_initial = 'D';
+    double pi = 3.1415;
+    bool true_or_false = false;
+    long num = 0;
+
+
+
+    return 0;
+}
+
+Step 4. -------------------------------------------
+
+#include <string>
+#include <iostream>
+using namespace std;
+
+int main() {
+    unsigned BIG_NUMBER = 10000000;
+    string name = "Allison Drouillard";
+    char last_initial = 'D';
+    double pi = 3.1415;
+    bool true_or_false = false;
+    long num = 0;
+    cout << &BIG_NUMBER << endl;
+    cout << &name << endl;
+    cout << &last_initial << endl;
+    cout << &pi << endl;
+    cout << &true_or_false << endl;
+    cout << &num << endl;
+
+
+
+    return 0;
+}
+
+0x7fff91c0d46c
+0x7fff91c0d480
+D
+0x7fff91c0d470
+0x7fff91c0d46b
+0x7fff91c0d478
+
+Step 5. -------------------------------------------
+
+#include <string>
+#include <iostream>
+#include <stdio.h>
+using namespace std;
+
+/* got the code idea from includehelp.com*/
+int main() {
+   int value = 37;
+
+   printf("Decimal value: %d\n", value);
+   printf("Octal value: %o\n", value);
+   printf("Hexadecimal value: %x\n", value);
+
+    return 0;
+}
+
+Decimal value: 37
+Octal value: 45
+Hexadecimal value: 25
+
+
+Step 6. -------------------------------------------
+
+#include <string>
+#include <iostream>
+using namespace std;
+
+int main() {
+   float arr[20] = {};
+   cout << sizeof(arr) << endl;
+
+    return 0;
+}
+
+
